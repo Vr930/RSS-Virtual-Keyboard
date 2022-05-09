@@ -1,0 +1,54 @@
+.keyboard {
+    width: 890px;
+    margin: 0 auto;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    
+}
+.key {
+    font-size: 16px;
+    color: aliceblue;
+    background: rgb(145, 144, 151);
+    height: 20px;
+    min-width: 20px;
+    border-radius: 10%;
+    border: 1px solid black;
+    text-align: center;
+   padding: 20px;
+   cursor: pointer;
+}
+
+._black {
+    
+    background: rgb(80, 76, 76);
+}
+
+._enter{
+    min-width: 87px;
+    background: rgb(80, 76, 76);
+    }
+
+._space{
+min-width: 248px;
+background: rgb(80, 76, 76);
+}
+
+._shift{
+    background: rgb(80, 76, 76);
+    min-width: 87px; 
+}
+
+._ctrl{
+    background: rgb(80, 76, 76);
+    min-width: 30px;   
+}
+
+._active {
+    background: rgb(150, 130, 110);
+}
+
+._up {
+    background: rgb(80, 76, 76);
+    
+}
